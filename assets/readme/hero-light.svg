@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-labelledby="hero-light-title hero-light-desc">
+  <title id="hero-light-title">Steven Koulo - Fullstack &amp; Software Developer</title>
+  <desc id="hero-light-desc">GitHub profile banner for Steven Koulo, building modern web apps and native Windows software from Abomey-Calavi, Benin.</desc>
+  <defs>
+    <linearGradient id="bg-grad-light" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="60%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <radialGradient id="glow-light" cx="20%" cy="10%" r="65%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08" />
+      <stop offset="60%" stop-color="#2563EB" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="card-border-light" x1="0" y1="0" x2="480" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(0, 0, 0, 0.12)" />
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0.05)" />
+    </linearGradient>
+    <linearGradient id="card-bg-light" x1="0" y1="0" x2="480" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="text-accent-light" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="22" fill="url(#bg-grad-light)" stroke="rgba(0, 0, 0, 0.08)" />
+  <rect x="1" y="1" width="1198" height="378" rx="21" fill="url(#glow-light)" />
+
+  <!-- Left Side: Identity & Pitch -->
+  <g transform="translate(56, 44)">
+    <!-- Availability Pill -->
+    <g>
+      <rect x="0" y="0" width="198" height="28" rx="14" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1" />
+      <circle cx="16" cy="14" r="4.5" fill="#16A34A" />
+      <circle cx="16" cy="14" r="7.5" fill="#16A34A" opacity="0.25" />
+      <text x="32" y="18" fill="#15803D" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="0.02em">Available for projects</text>
+    </g>
+
+    <!-- Name & Title -->
+    <text x="0" y="74" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="38" font-weight="700" letter-spacing="-0.03em">Steven Koulo</text>
+    <text x="0" y="104" fill="url(#text-accent-light)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="20" font-weight="600" letter-spacing="-0.01em">Fullstack &amp; Software Developer</text>
+
+    <!-- Bio summary -->
+    <text x="0" y="142" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="15" font-weight="400">
+      <tspan x="0" dy="0">Building native Windows utilities, responsive web apps,</tspan>
+      <tspan x="0" dy="24">and open-source tooling with a focus on craft, speed, and privacy.</tspan>
+    </text>
+
+    <!-- Location & Focus Pills -->
+    <g transform="translate(0, 204)">
+      <!-- Location -->
+      <rect x="0" y="0" width="176" height="30" rx="8" fill="#FFFFFF" stroke="rgba(0, 0, 0, 0.08)" />
+      <text x="12" y="19" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="500">📍 Abomey-Calavi, Benin 🇧🇯</text>
+
+      <!-- Key domain 1 -->
+      <rect x="184" y="0" width="120" height="30" rx="8" fill="rgba(2, 132, 199, 0.08)" stroke="rgba(2, 132, 199, 0.2)" />
+      <text x="196" y="19" fill="#0369A1" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="600">C# · WinUI 3</text>
+
+      <!-- Key domain 2 -->
+      <rect x="312" y="0" width="144" height="30" rx="8" fill="rgba(37, 99, 235, 0.08)" stroke="rgba(37, 99, 235, 0.2)" />
+      <text x="324" y="19" fill="#1D4ED8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="600">React · Next.js</text>
+
+      <!-- Key domain 3 -->
+      <rect x="464" y="0" width="112" height="30" rx="8" fill="rgba(147, 51, 234, 0.08)" stroke="rgba(147, 51, 234, 0.2)" />
+      <text x="476" y="19" fill="#7E22CE" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="600">Open Source</text>
+    </g>
+
+    <!-- Bottom link row -->
+    <g transform="translate(0, 260)">
+      <text x="0" y="15" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="13">
+        Portfolio: <tspan fill="#0284C7" font-weight="500">stevencrdkoulo.space</tspan> · GitHub: <tspan fill="#0284C7" font-weight="500">@stvekoulo</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Apple Window Preview (Code spec) -->
+  <g transform="translate(680, 44)">
+    <rect width="464" height="292" rx="16" fill="url(#card-bg-light)" stroke="url(#card-border-light)" stroke-width="1.2" />
+    
+    <!-- Window Bar -->
+    <rect width="464" height="38" rx="16" fill="rgba(0, 0, 0, 0.03)" />
+    <!-- Traffic lights -->
+    <circle cx="24" cy="19" r="6" fill="#FF5F56" />
+    <circle cx="44" cy="19" r="6" fill="#FFBD2E" />
+    <circle cx="64" cy="19" r="6" fill="#27C93F" />
+    <!-- Tab title -->
+    <text x="232" y="23" fill="#64748B" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="500">steven.config.ts</text>
+    <line x1="0" y1="38" x2="464" y2="38" stroke="rgba(0, 0, 0, 0.07)" stroke-width="1" />
+
+    <!-- Code Content -->
+    <g transform="translate(24, 62)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" xml:space="preserve">
+      <text y="0" fill="#0F172A">
+        <tspan fill="#E11D48">export const</tspan> <tspan fill="#0284C7">developer</tspan> = {
+      </text>
+      <text y="24" fill="#0F172A">
+        &#160;&#160;<tspan fill="#64748B">name:</tspan> <tspan fill="#059669">'Steven Koulo'</tspan>,
+      </text>
+      <text y="48" fill="#0F172A">
+        &#160;&#160;<tspan fill="#64748B">location:</tspan> <tspan fill="#059669">'Abomey-Calavi, Benin 🇧🇯'</tspan>,
+      </text>
+      <text y="72" fill="#0F172A">
+        &#160;&#160;<tspan fill="#64748B">specialties:</tspan> [
+      </text>
+      <text y="94" fill="#0284C7">
+        &#160;&#160;&#160;&#160;'WinUI 3 / C#', 'Next.js', 'TypeScript'
+      </text>
+      <text y="116" fill="#0F172A">
+        &#160;&#160;],
+      </text>
+      <text y="140" fill="#0F172A">
+        &#160;&#160;<tspan fill="#64748B">activeProjects:</tspan> [
+      </text>
+      <text y="162" fill="#D97706">
+        &#160;&#160;&#160;&#160;'Purge', 'Sol Browser', 'TVNest', 'DevBenin'
+      </text>
+      <text y="184" fill="#0F172A">
+        &#160;&#160;],
+      </text>
+      <text y="208" fill="#0F172A">
+        &#160;&#160;<tspan fill="#64748B">openToWork:</tspan> <tspan fill="#7C3AED">true</tspan>
+      </text>
+      <text y="230" fill="#0F172A">} <tspan fill="#E11D48">as const</tspan>;</text>
+    </g>
+  </g>
+</svg>
